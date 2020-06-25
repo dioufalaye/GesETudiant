@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,6 +9,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+      .principale{
+        overflow: auto;
+      }
+    </style>
   </head>
   <body>
    <div class="container-fluid ">
@@ -20,9 +26,9 @@
            </div>
         </div>
          <!--- -----------------------navbar---------------------------------------->
-         <nav class="nav bg-primary   d-flex justify-content-center   "  id="navbar">
-           <a class="nav-link active text-white" href="views/etudiant">Gestion etudiants</a>
-           <a class="nav-link text-white" href="views/chambre">gestion chambres</a>
+         <nav class="nav bg-primary d-flex justify-content-center   "  id="navbar">
+           <a class="nav-link active text-white" href="vue/viewEtudiant">Gestion etudiants</a>
+           <a class="nav-link text-white" href="vue/viewChambre">gestion chambres</a>
          </nav>
           <!--- ----------------------- end navbar---------------------------------------->
           <!--- -----------------------content---------------------------------------->
@@ -34,15 +40,13 @@
           <!-- Footer -->
         
             <footer class="page-footer font-small blue align-self-end fixed-bottom ml-3 mr-3 bg-primary py-0 px-0">
-
                 <!-- Copyright -->
                 <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright SA 2020
                 <!--  <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
                 </div>
                 <!-- Copyright -->
-
             </footer>
-            <!-- Footer -->
+        <!-- Footer -->
         
        
    </div>
